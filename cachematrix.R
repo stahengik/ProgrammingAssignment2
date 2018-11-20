@@ -3,6 +3,8 @@
 
 ## Write a short comment describing this function
 
+# This function returns a list of objects and save the inverse of a matrix in cahce
+
 makeCacheMatrix <- function(x = matrix()) {
   inv <- NULL
   set <- function(y){
@@ -18,6 +20,8 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+
+# This function checkes if the inverse is already cached and if not then solves the matrix for inverse
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
